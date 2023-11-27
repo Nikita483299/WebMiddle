@@ -1,5 +1,5 @@
 # This is my repository
-## My name is CAT
+## My name is НИКИТОС
 ![this is img](https://i.imgur.com/ceF76Vn.jpg)
 
 *Пример кода JS*
