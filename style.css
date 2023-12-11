@@ -1,25 +1,55 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(163,163,218,1) 35%, rgba(0,212,255,1) 100%);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(163, 163, 218, 1) 35%, rgba(0, 212, 255, 1) 100%);
     display: flex;
     justify-content: center;
     height: 100vh;
     align-items: center;
     color: #fff;
+    font-family: 'Arial', sans-serif;
+    user-select: none; /* Запрет выделения текста на странице */
 }
 
-ul{
-    padding: 0px 20px;
+.container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.commands {
+    margin-top: 20px;
+}
+
+h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: square;
+    padding: 0 20px;
     background: #000;
-    margin-left: -20px;
-    border-radius: 3px;
+    border-radius: 8px;
+    font-size: 14px;
 }
 
 ul li {
-    list-style-type: square;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
